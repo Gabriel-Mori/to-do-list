@@ -9,7 +9,7 @@ formAddToDo.addEventListener("submit", (e) => {
   if (inputValue.length) {
     // no momento do envio form, estiver 0, '', o bloco do if não sera executado
     toDoConatiner.innerHTML += ` 
-  <li class="list-group-item d-flex justify-content-between align-items-center">
+  <li class="list-group-item">
         <span>${inputValue}</span>
         <i class="far fa-trash-alt delete"></i>
   </li>`;
